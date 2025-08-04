@@ -1,0 +1,49 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+header{
+    display:flex;
+    align-items: center;
+    background-color: green;
+    width:100%;
+    height:200%;
+    justify-content: space-evenly;
+}
+h1{
+    font-size: 10em;
+    height: 170px;
+    color: white;
+    text-align: center;
+}
+footer{
+    align-items: center;
+    background-color: green;
+    width:100%;
+    height:200%;
+    justify-content: space-evenly;
+}
+section figure img{
+    width:200x;
+    height:200px;
+}
+h2,h3,p{
+text-align: center;
+}
+h4{
+    text-align: left;
+}
+.refeicao{
+    display:flex;
+}
+main,footer{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+form div{
+    display:flex;
+    justify-content:space-around;
+}
